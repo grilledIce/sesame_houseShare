@@ -1,0 +1,212 @@
+body
+  margin: 0px
+  font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif
+
+.top
+  position: fixed
+  left: 0px
+  right: 0px
+  top: 0px
+  z-index: 2
+  .topBar
+    display: flex
+    justify-content: space-between
+    font-size: 13px
+    background-color: #7cacee
+    padding-top: 5px
+    padding-bottom: 5px
+    height: 50px
+    .logo
+      width: 40%
+      margin-left: 5%
+      img
+        max-height: 50px
+        width: auto
+    .contact
+      margin-right: 3%
+      height: fit-content
+      margin-top: auto
+      margin-bottom: auto
+      p
+        color: white
+
+  .houseAddress
+    margin-top: 0px
+    background-color: #f0f0f0
+    height: 30px
+    p
+      padding-top: 5px
+      padding-bottom: 5px
+      margin-top: 0px
+      margin-left: 5%
+      color: #404040
+
+.container
+  max-width: 600px
+  margin-left: auto
+  margin-right: auto
+  margin-top: 60px
+
+  .pictures
+    width: 90%
+    margin-left: auto
+    margin-right: auto
+    margin-top: 2%
+    img
+      max-width: 100%
+  hr
+    margin-bottom: 0px
+    color: #B7B7B7
+    opacity: 0.2
+  #map
+    height: 300px
+    width: 100%
+    margin-bottom: 5%
+  .price
+    margin-top: 4%
+    margin-bottom: 4%
+    display: grid
+    grid-template-areas: 'money map' 'addr map' 'size rooms'
+    grid-template-rows: 40px 20px 20px
+    .money
+      grid-area: money
+      font-size: 25px
+      line-height: 40px
+      margin-left: 10%
+      font-weight: bold
+      color: #7cacee
+    .rooms
+      grid-area: rooms
+      margin-right: 17%
+      color: #535353
+      height: fit-content
+      text-align: right
+      i
+        font-size: 12px
+    .address
+      font-size: 14px
+      grid-area: addr
+      margin-left: 10%
+      height: fit-content
+      margin-top: auto
+      margin-bottom: auto
+      p
+        font-weight: lighter
+        margin: 0px
+        color: #535353
+    .size
+      grid-area: size
+      font-size: 14px
+      margin-left: 10%
+      height: fit-content
+      margin-top: auto
+      margin-bottom: auto
+      p
+        font-weight: lighter
+        color: #535353
+        margin: 0px
+    .map
+      grid-area: map
+      height: 60px
+      margin-top: auto
+      margin-right: 17%
+      margin-bottom: auto
+      text-align: right
+      img
+        height: 60px
+  .description
+    margin-top: 2%
+    margin-left: 5%
+    margin-right: 5%
+    margin-bottom: 5%
+    p
+      font-size: 14px
+      margin-top: 0px
+      margin-bottom: 0px
+      color: #535353
+      line-height: 20px
+
+
+  .basicInfo
+    margin-left: 5%
+    margin-right: 5%
+    color: #535353
+    p
+      margin: 0px
+      line-height: 20px
+    .bigT
+      font-size: 20px
+      margin-bottom: 5px
+      font-weight: bold
+    .smallT
+      margin-bottom: 15px
+      padding-top: 15px
+      font-weight: bold
+    .item
+      display: flex
+      justify-content: space-between
+      margin-bottom: 15px
+      font-weight: 200
+      margin-bottom: 10px
+    .smallF
+      font-size: 14px
+    .roomLayout
+      display: grid
+      grid-template-areas: 't w s'
+      grid-template-columns: 150px 50px auto
+      justify-content: normal
+      .s
+        text-align: right
+
+  .bottomAds
+    position: fixed
+    bottom: 0px
+    background-color: rgba(72,72,72,0.5)
+    left: 0px
+    right: 0px
+    height: 60px
+    display: flex
+    justify-content: space-between
+    padding-top: 1%
+    padding-bottom: 1%
+    .picAndWords
+      display: flex
+      margin-left: 2%
+      .appLogo
+        img
+          width: 60px
+      .words
+        .title
+          p
+            color: white
+            font-size: 20px
+            margin-top: 0px
+            margin-bottom: 0px
+        .expl
+          color: white
+          margin-top: 0px
+          margin-bottom: 0px
+          font-size: 16px
+    .moreBtn
+      margin-right: 10px
+      margin-top: auto
+      margin-bottom: auto
+      background-color: #7CACEE
+      padding: 2px 10px 4px 10px
+      border-radius: 5px
+      border: 2px solid #3C579E
+      a
+        text-decoration: none
+        color: white
+
+  .businessCard
+    img
+      max-width: 100%
+  .law
+    margin-top: 3%
+    p
+      color: #B7B7B7
+
+
+.emptyBox
+  height: 80px
